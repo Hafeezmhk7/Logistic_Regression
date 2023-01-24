@@ -1,0 +1,8 @@
+import numpy as np
+import pandas as pd
+import matplotlib as plt
+
+# Making Sigmoid function
+def sigmoid(z):
+    s=1/(1+np.exp(-z))
+    return s
